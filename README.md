@@ -215,7 +215,7 @@ var v = stdevyc.ndarray( N, 1, x, 2, 1 );
 
 -   If `N <= 0`, both functions return `NaN`.
 -   If `N - c` is less than or equal to `0` (where `c` corresponds to the provided degrees of freedom adjustment), both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dstdevyc`][@stdlib/stats/strided/dstdevyc], [`sstdevyc`][@stdlib/stats/base/sstdevyc], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dstdevyc`][@stdlib/stats/strided/dstdevyc], [`sstdevyc`][@stdlib/stats/strided/sstdevyc], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -272,7 +272,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats-strided/dstdevyc`][@stdlib/stats/strided/dstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanstdevyc`][@stdlib/stats/base/nanstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
--   <span class="package-name">[`@stdlib/stats-base/sstdevyc`][@stdlib/stats/base/sstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/sstdevyc`][@stdlib/stats/strided/sstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="package-name">[`@stdlib/stats-base/stdev`][@stdlib/stats/base/stdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/varianceyc`][@stdlib/stats/base/varianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 
@@ -366,7 +366,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/base/nanstdevyc]: https://github.com/stdlib-js/stats-base-nanstdevyc
 
-[@stdlib/stats/base/sstdevyc]: https://github.com/stdlib-js/stats-base-sstdevyc
+[@stdlib/stats/strided/sstdevyc]: https://github.com/stdlib-js/stats-strided-sstdevyc
 
 [@stdlib/stats/base/stdev]: https://github.com/stdlib-js/stats-base-stdev
 
