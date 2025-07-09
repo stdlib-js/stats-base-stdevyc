@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-01)
+## Unreleased (2025-07-09)
+
+<section class="features">
+
+### Features
+
+-   [`02bedd4`](https://github.com/stdlib-js/stdlib/commit/02bedd4c6ebc39c099f3503ece5e953949546242) - refactor and add protocol support to `stats/base/stdevyc` [(#7586)](https://github.com/stdlib-js/stdlib/pull/7586)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5686](https://github.com/stdlib-js/stdlib/issues/5686)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`02bedd4`](https://github.com/stdlib-js/stdlib/commit/02bedd4c6ebc39c099f3503ece5e953949546242) - **feat:** refactor and add protocol support to `stats/base/stdevyc` [(#7586)](https://github.com/stdlib-js/stdlib/pull/7586) _(by Gururaj Gurram, Athan Reines)_
 -   [`33b006d`](https://github.com/stdlib-js/stdlib/commit/33b006da9166c233b4e423e1da318aa99f56db00) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`5269da4`](https://github.com/stdlib-js/stdlib/commit/5269da48b9b1cbc6b3bfab79edf9682f76a73d3a) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`438e57b`](https://github.com/stdlib-js/stdlib/commit/438e57b5e91d062a5c28897e408d8aa81b3de137) - **refactor:** update paths _(by Aayush Khanna)_
@@ -26,9 +49,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
 -   Gururaj Gurram
 
 </section>
